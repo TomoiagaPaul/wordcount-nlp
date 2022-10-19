@@ -1,0 +1,24 @@
+* Summary
+A really basic NLP script for the purpose of modelling topics in a product feedback log.
+
+The script works by counting all words in the feedback log and excluding certain unhelpful or unmeaningful words
+such as "my", "the", "good", "hate", etc.
+Some feedback topics will be heavily associated with a single word, so by analysing subsets of the raw feedback log
+an analyst can find popular feedback topics to drive future iterations of their app.
+
+For example; see how filtering the provided dataset (Telegram feedback log 2016) by the word "video"
+heavily associates with users requesting a video call feature.
+
+This script aids in finding these strongly meaningful words.
+
+* Explanation and Usage
+The script can be repurposed for any other dataset; and has been kept simple to make the algorithm easy to understand.
+
+This can be done by editing the source-code file; however I would recommend a gui or CLI be developed to make this easier to use.
+
+To execute, simply run ~python ./count.py~
+
+* Presentation
+This was presented on 2022-10-19 for the Melbourne Australia Web Analytics Wednesday community.
+
+You can watch the video recording here: /Not yet available./
